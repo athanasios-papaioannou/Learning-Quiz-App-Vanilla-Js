@@ -1,0 +1,92 @@
+[
+  {
+    "question": "Ποια γλώσσα τρέχει στον browser;",
+    "answers": [
+      { "text": "Python", "correct": false },
+      { "text": "Java", "correct": false },
+      { "text": "JavaScript", "correct": true },
+      { "text": "C++", "correct": false }
+    ]
+  },
+  {
+    "question": "Τι σημαίνει CSS;",
+    "answers": [
+      { "text": "Computer Style Sheets", "correct": false },
+      { "text": "Cascading Style Sheets", "correct": true },
+      { "text": "Creative Style System", "correct": false },
+      { "text": "Colorful Style Sheets", "correct": false }
+    ]
+  },
+  {
+    "question": "Ποιο tag χρησιμοποιούμε για JavaScript μέσα σε HTML;",
+    "answers": [
+      { "text": "<js>", "correct": false },
+      { "text": "<javascript>", "correct": false },
+      { "text": "<script>", "correct": true },
+      { "text": "<code>", "correct": false }
+    ]
+  },
+  {
+    "question": "Τι κάνει η CSS ιδιότητα 'display: none';",
+    "answers": [
+      { "text": "Αλλάζει το χρώμα", "correct": false },
+      { "text": "Μεγαλώνει το στοιχείο", "correct": false },
+      { "text": "Κρύβει το στοιχείο", "correct": true },
+      { "text": "Κάνει animation", "correct": false }
+    ]
+  },
+  {
+    "question": "Ποιο σύμβολο χρησιμοποιούμε για σχόλια στη JavaScript;",
+    "answers": [
+      { "text": "//", "correct": true },
+      { "text": "##", "correct": false },
+      { "text": "<!-- -->", "correct": false },
+      { "text": "**", "correct": false }
+    ]
+  },
+  {
+    "question": "Τι επιστρέφει το typeof 42 στη JavaScript;",
+    "answers": [
+      { "text": "number", "correct": true },
+      { "text": "string", "correct": false },
+      { "text": "integer", "correct": false },
+      { "text": "float", "correct": false }
+    ]
+  },
+  {
+    "question": "Ποιο είναι το σωστό για να δημιουργήσεις μεταβλητή;",
+    "answers": [
+      { "text": "variable x = 5;", "correct": false },
+      { "text": "var x = 5;", "correct": true },
+      { "text": "int x = 5;", "correct": false },
+      { "text": "x := 5;", "correct": false }
+    ]
+  },
+  {
+    "question": "Ποιο method μετατρέπει JSON σε JavaScript object;",
+    "answers": [
+      { "text": "JSON.stringify()", "correct": false },
+      { "text": "JSON.convert()", "correct": false },
+      { "text": "parse.JSON()", "correct": false },
+      { "text": "JSON.parse()", "correct": true }
+    ]
+  },
+  {
+    "question": "Τι κάνει το addEventListener;",
+    "answers": [
+      { "text": "Προσθέτει event σε element", "correct": true },
+      { "text": "Δημιουργεί HTML", "correct": false },
+      { "text": "Σβήνει στοιχεία", "correct": false },
+      { "text": "Αλλάζει CSS μόνο", "correct": false }
+    ]
+  },
+  {
+    "question": "Τι είναι το DOM;",
+    "answers": [
+      { "text": "Μια γλώσσα προγραμματισμού", "correct": false },
+      { "text": "Browser engine", "correct": false },
+      { "text": "Δομή HTML εγγράφου", "correct": true },
+      { "text": "CSS framework", "correct": false }
+    ]
+  }
+]

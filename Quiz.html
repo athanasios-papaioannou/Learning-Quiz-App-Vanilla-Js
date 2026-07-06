@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="quiz-container">
+    <img src="images/learning-quiz-logo.png" alt="Learning Quiz Logo" class="quiz-logo">
+
+    <div class="question-box">
+      <div id="progress-text">Ερώτηση # από #</div><br/>
+      <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+      </div>
+      <h2 id="question">Εδώ θα εμφανίζεται η ερώτηση</h2>
+    </div>
+
+    <div class="answers">
+      <button class="answer-btn">Απάντηση 1</button>
+      <button class="answer-btn">Απάντηση 2</button>
+      <button class="answer-btn">Απάντηση 3</button>
+      <button class="answer-btn">Απάντηση 4</button>
+    </div>
+
+    <div class="controls">
+      <div class="prev-next">
+        <button id="prev-btn">Προηγούμενη</button>
+        <button id="next-btn">Επόμενη</button>
+      </div>
+      <div class="reset">
+        <button id="reset-btn">Reset</button>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>Designed & Developed by <a href="https://www.athanasiospapaioannou.gr" target="_blank"><strong>Athanasios Papaioannou</strong></a></p>
+    <span>Learning Quiz • Version 1.2.0</span>
+  </footer>
+<script defer src="script.js"></script> <!-- defer δηλαδή κατέβασε JS παράλληλα αλλά ΤΡΕΞΕ το αφού φορτώσει όλο το HTML-->
+</body>
+</html>
