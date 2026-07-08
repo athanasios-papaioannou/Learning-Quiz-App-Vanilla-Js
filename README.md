@@ -61,7 +61,7 @@ Use **Live Server** (recommended) or any local development server to run the app
 ```text
 Learning-Quiz-App-Vanilla-Js/
 
-│── Quiz.html
+│── index.html
 │── styles.css
 │── script.js
 │── questions.json
