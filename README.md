@@ -89,7 +89,7 @@ Some of the concepts explored include:
 
 ---
 
-## Version
+## ⚙ Version
 
 Current Release: **Version 1.2.0**
 
